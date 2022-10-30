@@ -56,6 +56,22 @@
   font-weight: normal;
   line-height: 25px;
 }
+.header__main-illustration{
+  ;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.header__main-illustration_image{
+  width: 765px;
+  height:608px;
+}
+.header__square-pic{
+  width:568px;
+  height:568px;
+  background-color: #2f80ed;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
