@@ -14,6 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -71,6 +72,21 @@
   width:568px;
   height:568px;
   background-color: #2f80ed;
+  z-index: -1;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.description{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.two-columns{
+display:flex;
+}
+.two-columns__brief{
+  width: 175px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
