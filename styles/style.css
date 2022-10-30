@@ -84,6 +84,9 @@
 }
 .two-columns{
 display:flex;
+justify-content: space-between;
+align-content: center;
+
 }
 .two-columns__brief{
   width: 175px;
