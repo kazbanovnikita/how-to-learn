@@ -78,12 +78,50 @@
 }
 .description{
   margin-top: 100px;
+  margin-bottom:100px
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .two-columns{
-  border:red 5px;
+display:flex;
+width:80%;
+
+}
+.two-columns__brief{
+display:flex;
+border:solid;
+border-color: aquamarine;
+width:175px;
+}
+.two-columns___main-text{
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+  ;
+}
+.two-columns__brief_text{
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.two-columns__paragraph_no-margin{
+  margin-bottom: 0;
+}
+.two-columns___paragraph{
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+.two-coluumns__span-accent{
+  line-height: 34px;
+  font-size:24px;
+  font-weight:600;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
