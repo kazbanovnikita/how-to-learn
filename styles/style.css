@@ -58,7 +58,6 @@
   line-height: 25px;
 }
 .header__main-illustration{
-  ;
   position:absolute;
   right: 0;
   bottom: 0;
@@ -84,17 +83,22 @@
   justify-content: center;
 }
 .two-columns{
-display:flex;
-justify-content: space-between;
-align-content: center;
-margin: 0 auto;
-width:80%;
-border: red 3px dashed;
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  width:175px;
+  }
+.two-columns__brief{
+  border:solid red;
+
 
 }
-.two-columns__brief{
-  width: 175px;
+.two-columns__main-text{
+  border: black solid 5px;
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
